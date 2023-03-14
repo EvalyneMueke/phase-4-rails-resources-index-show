@@ -2,6 +2,14 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
+
+Bird.create!(name: "Black-Capped Chickadee", species: "Poecile Atricapillus")
+Bird.create!(name: "Grackle", species: "Quiscalus Quiscula")
+Bird.create!(name: "Common Starling", species: "Sturnus Vulgaris")
+Bird.create!(name: "Mourning Dove", species: "Zenaida Macroura")
+
+
+
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
